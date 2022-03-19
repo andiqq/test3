@@ -32,7 +32,7 @@ class test3Tests: XCTestCase {
         
         let result = addUp(number1: number1, number2: number2)
         
-        XCTAssertEqual(7, result)
+        XCTAssertEqual(7, result, "Result is not seven")
     }
 
 //    func testPerformanceExample() throws {
