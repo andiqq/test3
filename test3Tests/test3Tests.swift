@@ -25,6 +25,15 @@ class test3Tests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
+    
+    func testMethod() {
+        let number1 = 3
+        let number2 = 4
+        
+        let result = addUp(number1: number1, number2: number2)
+        
+        XCTAssertEqual(7, result)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

@@ -14,6 +14,8 @@
 		E1875C7B27E61EAA003661C0 /* test3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875C7A27E61EAA003661C0 /* test3Tests.swift */; };
 		E1875C8527E61EAA003661C0 /* test3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875C8427E61EAA003661C0 /* test3UITests.swift */; };
 		E1875C8727E61EAA003661C0 /* test3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875C8627E61EAA003661C0 /* test3UITestsLaunchTests.swift */; };
+		E1875C9427E61EE2003661C0 /* method.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875C9327E61EE2003661C0 /* method.swift */; };
+		E1875C9527E61FD8003661C0 /* method.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1875C9327E61EE2003661C0 /* method.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		E1875C8027E61EAA003661C0 /* test3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1875C8427E61EAA003661C0 /* test3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3UITests.swift; sourceTree = "<group>"; };
 		E1875C8627E61EAA003661C0 /* test3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1875C9327E61EE2003661C0 /* method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = method.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 			children = (
 				E1875C6927E61EA8003661C0 /* test3App.swift */,
 				E1875C6B27E61EA8003661C0 /* ContentView.swift */,
+				E1875C9327E61EE2003661C0 /* method.swift */,
 				E1875C6D27E61EA9003661C0 /* Assets.xcassets */,
 				E1875C6F27E61EA9003661C0 /* Preview Content */,
 			);
@@ -257,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1875C9427E61EE2003661C0 /* method.swift in Sources */,
 				E1875C6C27E61EA8003661C0 /* ContentView.swift in Sources */,
 				E1875C6A27E61EA8003661C0 /* test3App.swift in Sources */,
 			);
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1875C9527E61FD8003661C0 /* method.swift in Sources */,
 				E1875C7B27E61EAA003661C0 /* test3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
